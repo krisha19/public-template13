@@ -1,6 +1,6 @@
 # Create an arbitrary local resource
 data "ibm_container_cluster" "cluster" {
-  cluster_name_id = "mycluster"
+  cluster_name_id = "myclusterNishu"
 }
 
 provider "kubernetes" {
